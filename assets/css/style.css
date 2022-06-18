@@ -1,0 +1,85 @@
+body {
+	margin-top: 100px !important;
+	min-height: 600px !important;
+}
+
+body .admin {
+	margin-top: 70px !important;
+}
+
+section {
+	min-height: 20px;
+}
+
+.navbar {
+	background-image: url('../img/bg7.jpg');
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+	color: #eaeaea !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+	margin-bottom: 20px;
+}
+
+div .card .card-body {
+	min-height: 250px;
+}
+
+.tombol {
+	border-radius: 80px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.form-group .tombol {
+	margin-top: 20px;
+}
+
+.abjad {
+	height: 200px;
+	padding: 10px;
+	line-height: 60px;
+	background-color: #c8c8c8;
+}
+
+.huruf {
+	color: #eaeaea;
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.badge {
+	margin-right: 3px;
+}
+
+.jumbotron {
+	margin-top: -50px;
+}
+
+.jumbotron h1 {
+	font-weight: 500;
+	font-size: 50px;
+}
+
+
+/*Desktop Display*/
+@media (min-width: 992px) {
+	.navbar {
+		text-transform: uppercase;
+	}
+
+	.huruf {
+		margin: 0 30px;
+	}
+}
